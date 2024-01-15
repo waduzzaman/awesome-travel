@@ -223,28 +223,98 @@ line-height: 26px;
     grid-template-columns: 1fr 2;
 
   }
+
+
+
+
+  .why-choose-us{
+margin-left: 150px;
+    width: 1170px ;
+
+    
+    
+
+  }
+
+
+  .why-choose {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    text-align: left;
+  }
+  
+ 
+  .price{
+    margin: auto;
+  }
+
+  
  
 
+.hotel, .service, .price{
+    padding: 10px;
+    gap: 10px;
+    border-radius: 16px; 
+    height: 284px;  
+    justify-content: center;
+    align-items: center;
+
+}
+.hotel{
+  
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+   
+}
+
+.service{
+
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+
+
+}
+
+.price{
+
+    margin-top: 10px;
+   align-items: center;
+    border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+
+width: 573px;
+height: 284px;
+flex-shrink: 0;
+
+
+
+} 
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .menu-container {
+      display: none;
+    }
+  
+    #hamburger {
+      display: flex;
+      align-items: center;
+      margin: auto;
+      
+    }
+  
+    nav img {
+      width: 20%;
+    }
+  }
+  
 
 
   
 
-/* Media Query/ Responsiveness */
 
-
-@media screen and (max-width: 600px) {
-  .menu-container {
-    display: none;
-  }
-
-  #hamburger {
-    display: flex;
-    align-items: center;
-    margin: auto;
-    
-  }
-
-  nav img {
-    width: 20%;
-  }
-}
