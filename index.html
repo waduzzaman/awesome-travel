@@ -41,22 +41,32 @@
                         today!</p>
                     <div class="selection">
 
-                        <div class="input">
-                            <input type="text" name="" placeholder="Where to" id="">
+                        <div class="selection-box">
+                            <label for="destination">Where:</label>
+                            <select id="destination" class="selection-input">
+                                <option value="paris">Paris</option>
+                                <option value="new-york">New York</option>
+                                <option value="tokyo">Tokyo</option>
+                            </select>
 
                         </div>
-                        <div class="input">
 
-                            <select id="travelDestination" name="travelDestination">
-                                <option class="selection-item" value="paris">When</option>
+                        <div class="selection-box">
+                            <label for="when">When:</label>
+                            <select id="when" class="selection-input">
+                                <option value="now">Now</option>
+                                <option value="next-month">Next Month</option>
+                                <option value="next-year">Next Year</option>
                             </select>
                         </div>
-                        <div class="input">
-
-                            <select id="travelDestination" name="travelDestination">
-                                <option class="selection-item" value="paris">Select Type</option>
+                        <div class="selection-box"> <label for="hotel-type">Type</label>
+                            <select id="hotel-type" class="selection-input">
+                                <option value="luxury">Luxury</option>
+                                <option value="boutique">Boutique</option>
+                                <option value="budget">Budget</option>
                             </select>
                         </div>
+
 
                         <button class="btn-find-now" type="button"><i
                                 class="fa-solid fa-magnifying-glass find-now"></i>Find Now </button>
@@ -366,7 +376,7 @@
                         </div>
 
                         <img class="text-overlay box1" src="./Images/controlbar.png" alt="">
-                       
+
 
 
                     </div>
@@ -386,14 +396,15 @@
             <div class="newsletter-section">
                 <div class="newsletter-text">
                     <h5>Newsletter</h5>
-                    <p>Stay updated with our newsletter. Receive exclusive offers, travel tips, and exciting destination insights weekly</p>
+                    <p>Stay updated with our newsletter. Receive exclusive offers, travel tips, and exciting destination
+                        insights weekly</p>
                     <hr>
                     <div class="subscribe">
-                       <input type="text" name="" id="" placeholder="Enter Your Name">
-                    <input type="text" name="" id="" placeholder="Enter your Email">
-                    <button type="button">Subscribe</button> 
+                        <input type="text" name="" id="" placeholder="Enter Your Name">
+                        <input type="text" name="" id="" placeholder="Enter your Email">
+                        <button type="button">Subscribe</button>
                     </div>
-                    
+
                 </div>
                 <div class="save">
                     <img src="./Images/newsletter-photo.png" alt="">
@@ -417,24 +428,25 @@
         </main>
 
         <footer>
-           <div class="logo">
-            <img src="./Images/logo.png" alt="">
+            <div class="logo">
+                <img src="./Images/logo.png" alt="">
 
-           </div>
-           <div class="footer-description">
-            <p>Explore the world with our travel expertise. Unforgettable journeys, best deals, and personalized service await you. Your dream vacation begins here. Discover, experience, and indulge.</p>
+            </div>
+            <div class="footer-description">
+                <p>Explore the world with our travel expertise. Unforgettable journeys, best deals, and personalized
+                    service await you. Your dream vacation begins here. Discover, experience, and indulge.</p>
 
-           </div>
-           <div class="social">
-           <i class="fa-brands fa-x-twitter social-icons"></i>
-            <i class="fa-brands fa-facebook social-icons"></i>
-            <i class="fa-brands fa-linkedin social-icons"></i>
-            <i class="fa-brands fa-github social-icons"></i>
-            <i class="fa-brands fa-instagram social-icons"></i>
-            
-           </div>
-           <hr class="footer-hr">
-           <p>&copy; 2024 Md Mahbub E Waduzzaman. All rights reserved.</p>
+            </div>
+            <div class="social">
+                <i class="fa-brands fa-x-twitter social-icons"></i>
+                <i class="fa-brands fa-facebook social-icons"></i>
+                <i class="fa-brands fa-linkedin social-icons"></i>
+                <i class="fa-brands fa-github social-icons"></i>
+                <i class="fa-brands fa-instagram social-icons"></i>
+
+            </div>
+            <hr class="footer-hr">
+            <p>&copy; 2024 Md Mahbub E Waduzzaman. All rights reserved.</p>
 
 
         </footer>

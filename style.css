@@ -59,7 +59,12 @@ nav img {
 }
 
 
+
+
+
+
 .selection {
+    width: 900px;
     display: inline-flex;
     padding: 16px;
     gap: 24px;
@@ -70,25 +75,26 @@ nav img {
     margin: 0;
 }
 
+.selection-box{
+    border: 2px solid rgb(124, 124, 124);
+    padding: 10px;
+}
 
-
-.input {
-    width: 174px;
+.selection-input{
+    
     height: 52px;
     flex-shrink: 0;
     border-radius: 8px;
-    background: #FFF;
-    border: none;
+    color: rgba(19, 19, 24, 0.50);
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+line-height: normal;
 
-    margin: 10px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-
+   
 }
+
+
 
 .btn-find-now {
     width: 174px;
