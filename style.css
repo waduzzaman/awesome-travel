@@ -4,13 +4,15 @@
     font-family: 'Mulish', sans-serif;
     text-align: center;
 }
-nav {
+
+header > nav {
+    width: 1170px;
     margin-top: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     margin: auto;
     align-items: center;
-    margin-left: 2rem;
+
 }
 
 nav img {
@@ -229,16 +231,16 @@ nav img {
 
 /* Why Choose Us Container */
 
+
 .why-choose-us {
-    margin-left: 150px;
-    width: 1170px;    
+  
+    width: 1170px; 
+    margin: auto;   
 }
 
 .why-choose {
     margin: auto;
-    width: 1170px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
     gap: 10px;
     text-align: left;
 }
@@ -452,6 +454,208 @@ border: orange;
 background-color: transparent;
 
 }
+
+/* Simple perfection section style */
+.row1, .row2, .row3{
+    display: flex;
+    gap: 15px;
+   padding-top: 10px;
+    
+}
+
+.popular-image{
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+ .popular-image .container .text-overlay{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px; /* 150% */
+  }
+
+  .play{
+    display: flex;
+    gap: 10px;
+  }
+  .mic-pic-menu img{
+    width: 100px;
+  }
+
+  .text-overlay-control{
+    display: flex;
+    padding-top: 320px;
+    justify-content: space-between;   
+    gap: 380px;
+    align-items: center;
+    margin-top: 100px;
+
+  }
+
+
+  .control-bar {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+ .box1 {
+    margin-top: 305px;
+    margin-bottom: 100px;
+    width: 90%;
+    height: 6px;
+    border-radius: 8px;
+    background: #474747;
+}
+
+/* Newsletter section */
+
+.newsletter-section{
+    display: flex;
+    width: 1170px;
+    height: 500px;  
+    margin: auto;
+    gap: 5px;
+}
+
+.save{
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .newsletter-box{
+    width: 324px;
+height: 120px;
+transform: rotate(-19.628deg);
+
+border-radius: 16px;
+background: #FF5400;
+  }
+
+  .newsletter-text{
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 20px;
+    margin-right:100px;
+    border: 1px solid #ff5400;
+    width: 474px;
+height: 422px;
+flex-shrink: 0;
+border-radius: 16px;
+border: 1px solid #FF5400;
+    
+    
+  }
+
+  .newsletter-text h5{
+    color: #131318;
+font-size: 24px;
+font-weight: 800;
+
+  }
+
+  .newsletter-text p{
+    color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+
+  }
+
+  .newsletter-text hr{
+    margin-left: 0;
+    width: 400px;
+height: 1px;
+background: rgba(19, 19, 24, 0.10);
+    
+  }
+  
+
+  .subscribe{
+    display: flex;
+    flex-direction: column;    
+    margin-top: 20px;
+  }
+
+  .subscribe input{
+    margin-bottom: 15px;
+    width: 393px;
+height: 52px;
+
+text-align: center;
+  }
+
+  .subscribe button{
+    width: 393px;
+height: 52px;
+border-radius: 8px;
+background: #FF5400;
+color: #FFF;
+text-align: center;
+
+font-size: 20px;
+
+font-weight: 800;
+
+
+  }
+
+
+/* footer */
+
+footer{
+    margin: auto;
+    padding: 50px;
+    margin-top: 10px;
+   
+height: 300px;
+flex-shrink: 0;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.logo img{
+    width: 150px;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+   
+
+}
+
+.footer-description{
+    width: 769px;
+    margin: auto;
+
+}
+
+.footer-hr{
+    width: 872px;
+height: 1px;
+background: rgba(19, 19, 24, 0.10);
+
+}
+
+
+
+
   
 
 
