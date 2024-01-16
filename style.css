@@ -3,17 +3,9 @@
 :root {
     font-family: 'Mulish', sans-serif;
     text-align: center;
-
-
-
 }
-
-
-
 nav {
-
     margin-top: 10px;
-
     display: flex;
     justify-content: space-between;
     margin: auto;
@@ -26,7 +18,6 @@ nav img {
 }
 
 .menu-container {
-
     margin-top: 50px;
     max-width: 1174px;
     padding: 10px 0px;
@@ -231,7 +222,6 @@ nav img {
     left: 50%;
     transform: translate(-50%, -50%);
   }
-
   
 
  
@@ -239,13 +229,10 @@ nav img {
 
 /* Why Choose Us Container */
 
-
 .why-choose-us {
     margin-left: 150px;
-    width: 1170px;
-    
+    width: 1170px;    
 }
-
 
 .why-choose {
     margin: auto;
@@ -274,17 +261,11 @@ padding-right: 200px;
 font-size: 16px;
 font-weight: 400;
 line-height: 26px; 
-
 }
-
 
 .price {
     margin: auto;
 }
-
-
-
-
 .hotel,
 .service,
 .price {
@@ -295,39 +276,183 @@ line-height: 26px;
     justify-content: center;
     align-items: center;
     text-align: left;
-
 }
 
 .hotel {
-
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
-
 }
 
 .service {
-
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
-
 
 }
 
 .price {
-
     margin-top: 10px;
     align-items: center;
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
-
     width: 573px;
     height: 284px;
     flex-shrink: 0;
+}
+
+/* Deals and Discount Container */
+
+.tour-packages-container{
+    margin-top: 2rem;
+    position: relative;
+    display: inline-block; 
+    
+}
+
+
+.discount {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    border: 2px solid aqua;
+    transform: translate(-50%, -50%);    
+    color: black;    
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
+    width: 579px;
+    height: 389px;
+border-radius: 16px;
+border: 2px solid #FFF;
+background: rgba(255, 255, 255, 0.80);
+backdrop-filter: blur(2.5px);
+}
+
+
+
+.tour-packages-container2{
+    margin-top: 2rem;
+    position: relative;
+    display: inline-block; 
+    
+}
+
+
+.discount2 {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    border: 2px solid aqua;
+    transform: translate(-50%, -50%);    
+    color: black;    
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
+    width: 579px;
+    height: 389px;
+border-radius: 16px;
+border: 2px solid #FFF;
+background: rgba(255, 255, 255, 0.80);
+backdrop-filter: blur(2.5px);
+}
+
+.points{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    gap: 10px;
+}
+
+.points .days img, 
+.points .max-guests img, 
+.points .location-with-map img{
+    max-height: 24px;
+    padding-right: 5px;
+}
+
+.days, .max-guests, .location-with-map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+   
+}
+
+.discount-header, 
+.discount-details, 
+.discount-price
+{
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 10px;
+
+}
+
+.discount-header{
+    color: #131318;
+font-size: 24px;
+font-weight: 800;
+
+}
+
+.discount-details{
+    color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; 
+
+}
+
+.discount-price{
+    color: #FF5400;
+font-size: 20px;
+font-weight: 800;
+
+}
+
+.btn-discount{
+  
+    margin-left: 50px;
+    width: 150px;
+height: 52px;
+color: #FFF;
+text-align: center;
+padding-top: 13px;
+
+font-size: 20px;
+margin-top: 10px;
+font-weight: 800;
+border-radius: 8px;
+background: #FF5400;
+
+
+}
+
+
+.btn-all-discount{
+   
+    padding-top:20px;
+    width: 210px;
+height: 52px;
+
+border-radius: 8px;
+background: #FF5400;
+margin: auto;
+margin-top: 30px;
 
 
 
 }
+
+.all-discount-btn{
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+border: orange;
+background-color: transparent;
+
+}
+  
 
 
 
