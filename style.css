@@ -676,6 +676,10 @@ footer {
 
 
 @media screen and (max-width: 600px) {
+
+    :root{
+        width: 100%;
+    }
     .menu-container {
         display: none;
     }
@@ -830,10 +834,6 @@ footer {
 
    /* deals-section */
 
-   .deals-section{
-
-
-   }
 
    .tour-packages-container {
     margin-top: 2rem;
@@ -1016,6 +1016,26 @@ footer {
     border-radius: 16px;
     background: #FF5400;
 }
+
+/********************************************Testimonial Section**************************************************************/
+
+.testimonial-container{
+
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800px;
+}
+
+
+.testimonial-section{
+    width: 100px;
+}
+
+.testimonial-container{
+    display: block;
+}
+/* ******************************************Footer Section*************************************************************************** */
+
 
 .footer{
     margin-top: 600px;
